@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zoo Map | Willow Creek Wildlife Park</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header role="banner">
+    <img src="photos/logo.png" alt="Willow Creek Wildlife Park Logo, featuring the name and a jumping deer" class="logo-img">
+    <input type="checkbox" id="menu-checkbox" />
+    <label for="menu-checkbox" class="menu-toggle" aria-label="Toggle navigation menu">☰</label>
+    <nav class="main-nav" role="navigation">
+      <a href="index.html" aria-label="Home page">Home</a>
+      <a href="animal-worlds.html" aria-label="Animal Worlds section">Animal Worlds</a>
+      <a href="map.html" aria-label="Zoo map page">Map</a>
+      <a href="special-events.html" aria-label="Special Events page">Special Events</a>
+      <a href="restaurants.html" aria-label="Restaurants page">Restaurants</a>
+      <a href="catalog.html" aria-label="Catalog page">Catalog</a>
+      <a href="registration.html" aria-label="Registration page">Registration</a>
+    </nav>
+  </header>
+
+  <main class="map-container" role="main">
+    <h1 class="events-title">Explore the Zoo</h1>
+    <img src="photos/map.png" alt="A general map of Willow Creek Wildlife Park with labeled areas for different exhibits" usemap="#zoomap" width="800" />
+
+    <map name="zoomap">
+      <area alt="Welcome Area" title="Welcome Area" href="#welcome" shape="circle" coords="177,295,165" />
+      <area alt="Wildlife Area" title="Wildlife Area" href="#wildlife" shape="poly" coords="695,320,750,310,719,58,275,98,312,188,572,318,572,318" />
+      <area alt="Farm Animals Area" title="Farm Animals Area" href="#farm" shape="poly" coords="448,474,356,460,348,229,597,337,759,328,754,490,492,494" />
+    </map>
+  </main>
+
+  <section id="welcome" class="section-info" role="region" aria-labelledby="welcome">
+    <h2>Welcome Area</h2>
+    <p>Start your visit here! The Welcome Area includes ticket booths, an information center, the amphitheater for shows, and our gift shop full of fun souvenirs. Be sure to check the schedule for daily events!</p>
+  </section>
+
+  <section id="wildlife" class="section-info" role="region" aria-labelledby="wildlife">
+    <h2>Wildlife</h2>
+    <p>This area is home to our most exotic creatures including tigers, reptiles, and animals in our nocturnal house. Walk through lush habitats and learn about conservation efforts around the world.</p>
+  </section>
+
+  <section id="farm" class="section-info" role="region" aria-labelledby="farm">
+    <h2>Farm Animals</h2>
+    <p>Visit our friendly farmyard featuring goats, sheep, pigs, and chickens! This area also includes a petting zoo where kids can safely interact with animals up close and learn about life on the farm.</p>
+  </section>
+</body>
+</html>
