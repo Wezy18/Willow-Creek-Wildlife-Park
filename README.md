@@ -1,22 +1,24 @@
 # Willow Creek Wildlife Park
 
-Willow Creek Wildlife Park is a multi-page informational website built with HTML and CSS to showcase a fictional wildlife park experience — complete with exhibits, events, dining options, and registration features. This project was created as a front-end learning exercise and portfolio piece.
+Willow Creek Wildlife Park is a multi-page informational website built with HTML and CSS to showcase a fictional wildlife park experience — complete with exhibits, special events, dining options, and visitor registration features.
+
+This project was created as a front-end development exercise and portfolio piece, designed to demonstrate clean structure, thoughtful navigation, and cohesive visual design.
 
 ## About the Project
 
-This static website simulates a wildlife park with:
+This static website simulates a full wildlife park experience, including:
 
-- A homepage introducing the park
-- Linked exhibit pages featuring animals and special events
+- A welcoming homepage introducing the park
+- Linked exhibit pages featuring animals and special attractions
 - Dining options with individual restaurant detail pages
 - A visitor registration form with a confirmation page
 - An interactive park map with clickable regions that navigate to different sections of the site
 
-All pages are handcrafted with semantic HTML and styled using CSS to create a simple, clean, and navigable layout.
+All pages are handcrafted using semantic HTML and styled with CSS to create a clear, organized, and user-friendly layout.
 
 ## Project Structure
 
-Here’s a quick look at the key files and what they do:
+Below is an overview of the primary files and their roles:
 
 ```text
 Willow-Creek-Wildlife-Park/
@@ -26,32 +28,31 @@ Willow-Creek-Wildlife-Park/
 ├── restaurant1.html — Restaurant detail page
 ├── restaurant2.html — Restaurant detail page
 ├── registration.html — Visitor signup form
-├── thank-you.html — Form submission page
-├── map.html — Park map
+├── thank-you.html — Form submission confirmation page
+├── map.html — Interactive park map
 ├── styles.css — Primary stylesheet
-└── other feature pages — Event details, exhibits, etc.
+└── Additional feature pages — Event details, exhibits, etc.
 ```
 
 ## How to View Locally
 
-No special setup or server is needed — this is a fully static site.
+No special setup or server is required — this is a fully static site.
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Wezy18/Willow-Creek-Wildlife-Park.git
-   ```
+```bash
+git clone https://github.com/Wezy18/Willow-Creek-Wildlife-Park.git
+```
+2. Open ```index.html``` in your preferred web browser.
 
-2. Open index.html in your browser.
-
-Setup is complete — use the navigation menu to explore the various sections of the site.
+From there, use the navigation menu to explore the various sections of the site.
 
 ## Built With
 
-This site uses only:
+This project was developed using:
 
-- HTML5 — Website structure
-- CSS3 — Styling and layout
+- HTML5 — For semantic structure and content organization
+- CSS3 — For styling, layout, and visual consistency
 
 No frameworks or external libraries are required.
 
@@ -59,20 +60,29 @@ No frameworks or external libraries are required.
 
 This project was built to:
 
-- Practice structuring multi-page HTML projects
-- Showcase layout and navigation skills
-- Demonstrate responsive and semantic design
+- Practice structuring a multi-page HTML website
+- Strengthen layout, navigation, and design skills
+- Demonstrate responsive and semantic front-end development principles
 
-It serves as both a learning project and a portfolio example of foundational front-end development skills.
+It serves as both a hands-on learning experience and a portfolio example showcasing foundational front-end skills.
 
+## Future Improvements
+
+Potential enhancements for future development include:
+
+- Adding JavaScript for interactive features (form validation, dynamic navigation, modal popups)
+- Improving mobile responsiveness with media queries
+- Implementing accessibility improvements (ARIA labels, improved contrast, keyboard navigation)
+- Converting the site into a dynamic application using a backend framework
+- Adding a database to store visitor registration data
+- Enhancing the interactive park map with hover effects and animations
+- 
 ## Notes
 
-There is no backend — all interactions are static.
-
-You can use this as a starting point to add JavaScript or other enhancements.
-
-Images and assets should be kept in project folders using relative paths.
+- This project does not include backend functionality; all interactions are static.
+- The site can be expanded by integrating JavaScript or server-side features.
+- Images and assets should be organized within project folders using relative paths.
 
 ## License
 
-This project is available for educational and personal use. Feel free to fork and modify it!
+This project is available for educational and personal use. You’re welcome to fork, adapt, and build upon it.
