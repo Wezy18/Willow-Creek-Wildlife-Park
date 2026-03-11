@@ -1,20 +1,23 @@
 # Willow Creek Wildlife Park
 
-Willow Creek Wildlife Park is a multi-page informational website built with HTML and CSS to showcase a fictional wildlife park experience — complete with exhibits, special events, dining options, and visitor registration features.
+Willow Creek Wildlife Park is a multi-page informational website built with HTML and CSS to showcase a fictional wildlife park experience. The site includes animal exhibit pages, special event pages, dining information, a gift shop catalog, a newsletter, and visitor sign-up features.
 
-This project was created as a front-end development exercise and portfolio piece, designed to demonstrate clean structure, thoughtful navigation, and cohesive visual design.
+This project was created as a front-end development exercise and portfolio piece to demonstrate clean page structure, responsive layout techniques, accessible markup, and cohesive visual design across a multi-page website.
 
 ## About the Project
 
 This static website simulates a full wildlife park experience, including:
 
-- A welcoming homepage introducing the park
-- Linked exhibit pages featuring animals and special attractions
-- Dining options with individual restaurant detail pages
-- A visitor registration form with a confirmation page
-- An interactive park map with clickable regions that navigate to different sections of the site
+- A homepage introducing the park, its mission, hours, location, and admission pricing
+- An Animal Worlds page with image galleries for farm animals and African animals
+- A Special Events section with individual event detail pages
+- A Dining section with individual restaurant menu pages
+- A Zoo Gift Shop catalog page featuring souvenir items
+- An interactive park map with clickable regions that jump to information sections
+- A park newsletter page with featured stories and updates
+- A newsletter sign-up form with a thank-you confirmation page
 
-All pages are handcrafted using semantic HTML and styled with CSS to create a clear, organized, and user-friendly layout.
+All pages are handcrafted using semantic HTML and styled with CSS to create a clear, organized, and user-friendly experience.
 
 ## Project Structure
 
@@ -22,16 +25,26 @@ Below is an overview of the primary files and their roles:
 
 ```text
 Willow-Creek-Wildlife-Park/
-├── index.html — Home and main navigation
-├── catalog.html — List of exhibits and sections
+├── index.html — Homepage with park overview and visitor information
+├── animal-worlds.html — Animal exhibit galleries
+├── map.html — Interactive park map with clickable regions
+├── special-events.html — Events overview page
+├── big-cats.html — Big Cat Awareness Weekend event page
+├── hatch-day.html — Spring Hatch Day event page
+├── zookeeper-day.html — Keeper for a Day event page
+├── eco-fair.html — Earth Day Eco Fair event page
+├── wild-tunes.html — Wild Tunes event page
+├── night-zoo.html — Night at the Zoo event page
 ├── restaurants.html — Dining options overview
-├── restaurant1.html — Restaurant detail page
-├── restaurant2.html — Restaurant detail page
-├── registration.html — Visitor signup form
-├── thank-you.html — Form submission confirmation page
-├── map.html — Interactive park map
-├── styles.css — Primary stylesheet
-└── Additional feature pages — Event details, exhibits, etc.
+├── restaurant1.html — Safari Grub menu page
+├── restaurant2.html — Pizzaroo menu page
+├── catalog.html — Zoo gift shop catalog
+├── news-letter.html — Newsletter page
+├── registration.html — Newsletter sign-up form
+├── thank-you.html — Form confirmation page
+├── styles.css — Main site stylesheet
+├── news-style.css — Newsletter-specific stylesheet
+└── photos/ — Images used throughout the site
 ```
 
 ## How to View Locally
@@ -51,37 +64,49 @@ From there, use the navigation menu to explore the various sections of the site.
 
 This project was developed using:
 
-- HTML5 — For semantic structure and content organization
-- CSS3 — For styling, layout, and visual consistency
+- HTML5 - for semantic structure and page content
+- CSS3 - for styling, layout, and responsive design
+- Google Fonts - for typography
+- Lightbox2 - for the image gallery experience on the Animal Worlds page
 
-No frameworks or external libraries are required.
+## Features
+
+- Multi-page website structure
+- Consistent navigation across pages
+- Responsive hamburger menu for smaller screens
+- Interactive image gallery with Lightbox
+- Interactive zoo map using HTML image map areas
+- Event detail pages with images and descriptions
+- Newsletter page and sign-up form
+- Semantic HTML and accessibility-minded markup, including alt text and ARIA labels
 
 ## Purpose
 
 This project was built to:
 
-- Practice structuring a multi-page HTML website
-- Strengthen layout, navigation, and design skills
-- Demonstrate responsive and semantic front-end development principles
+- Practice structuring and styling a multi-page website
+- Strengthen layout, navigation, and responsive design skills
+- Demonstrate semantic HTML and front-end organization
+- Create a polished portfolio example based on a themed visitor website
 
-It serves as both a hands-on learning experience and a portfolio example showcasing foundational front-end skills.
+It serves as both a hands-on learning experience and a portfolio piece showcasing foundational front-end development skills.
 
 ## Future Improvements
 
 Potential enhancements for future development include:
 
-- Adding JavaScript for interactive features (form validation, dynamic navigation, modal popups)
-- Improving mobile responsiveness with media queries
-- Implementing accessibility improvements (ARIA labels, improved contrast, keyboard navigation)
-- Converting the site into a dynamic application using a backend framework
-- Adding a database to store visitor registration data
-- Enhancing the interactive park map with hover effects and animations
-- 
+- Adding JavaScript for expanded interactivity and client-side form validation
+- Improving keyboard accessibility and focus states
+- Enhancing the park map with hover effects or a more advanced interactive layout
+- Adding filtering or categories for events, animals, or shop items
+- Connecting the form to a backend service for real newsletter subscriptions
+- Expanding the site with additional exhibits, restaurants, or seasonal attractions
+
 ## Notes
 
-- This project does not include backend functionality; all interactions are static.
-- The site can be expanded by integrating JavaScript or server-side features.
-- Images and assets should be organized within project folders using relative paths.
+- This project is a static front-end website and does not include backend functionality.
+- The newsletter sign-up form currently redirects to a confirmation page rather than storing data.
+- Images and assets are referenced using relative file paths within the project structure.
 
 ## License
 
